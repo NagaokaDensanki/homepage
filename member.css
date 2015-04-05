@@ -26,7 +26,9 @@
 	position: absolute;
 	top: 75px;
 	left: 0;
+	right: 0;
 	width: 400px;
+	height: 45px;
 	padding-left: 120px;
 	color: black;
 	background-color: #DDDDDD;
