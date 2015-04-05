@@ -1,12 +1,8 @@
 .plofile-card {
+	margin: 10px 20px;
 	width: 400px;
-	height: 300px;
 	position: relative;
 	box-shadow: -1px 1px 10px gray;
-	margin: 20px;
-
-
-/*	background-color: yellow;*/
 }
 
 /* prolife-header内の要素 */
@@ -28,19 +24,26 @@
 
 .name {
 	position: absolute;
-	top: 60px;
-	left: 130px;
-	color: white;
-	font-weight: bold;
-	font-size: 40px;
+	top: 75px;
+	width: 400px;
+	padding-left: 120px;
+	color: black;
+	background-color: #DDDDDD;
+	opacity: 0.6;
+	font-size: 30px;
 }
 
 /* profile-header外の要素 */
 .comment {
-	margin: 10px 30px;
+	margin: 10px 30px 5px 30px;
 	font-weight: bold;
 }
 
-.account {
-	margin-left: 7px;
+.accounts {
+	margin-left: 50px;
+	padding-bottom: 5px;
+}
+
+a {
+	margin: 0 10px;
 }
