@@ -1,75 +1,42 @@
-.plofile-card {
-    margin: 10px 20px;
-    width: 400px;
-    position: relative;
-    box-shadow: -1px 1px 10px gray;
-    border-radius: 3px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-/* prolife-header内の要素 */
-.profile-header-image {
-    width: 400px;
-    height: 120px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    background: #536dfe;
-}
-
-.profile-header-icon {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    /* iconの画像を丸くトリミング */
-    width: 80px;
-    border-radius: 80px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 80px;
-}
-
-.name {
-    position: absolute;
-    top: 75px;
-    left: 0;
-    right: 0;
-    height: 45px;
-    padding-left: 120px;
-    color: white;
-    font-size: 30px;
-    background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.5));
-    background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,0.6)));
-}
-
-/* profile-header外の要素 */
-.profile-contents-comment {
-    padding: 10px 20px;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.profile-contents-accounts {
+.title{
+    width: 820px;
     padding: 10px;
-    overflow: hidden;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: -1px 1px 10px gray;
 }
 
-.account{
-    margin: 5px 5px;
-    padding: 3px;
+h3{
+    width: 820px;
+    margin: 5px 0;
+    padding: 10px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: -1px 1px 10px gray;
+    clear: left;
+}
+
+.main{
+    width: 900px;
+    margin: auto;
+    padding:50px;
+}
+
+.cards{
+
+}
+
+.cards-left{
+    padding: 10px;
     float: left;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    border-radius: 3px;
-    border: 1px solid #ddd;
 }
 
-.account-icon{
-    height: 30px;
-    margin: 3px;
-    float: left;
-}
-
-.account-name{
-    color: rgba(0,0,0,0.7);
-    height: 30px;
-    line-height: 30px;
-    margin: 3px 5px;
+.cards-right{
+    padding: 10px;
     float: left;
 }
