@@ -26,9 +26,9 @@
     right: 15px;
 }
 .navi-bar-right ul {
-	margin-top: 0;
-	margin-right: 70px;
-	list-style: none;
+    margin-top: 0;
+    margin-right: 70px;
+    list-style: none;
 }
 .navi-bar-right li{
     float: left;
@@ -40,4 +40,5 @@
     font-size: 20px;
     color: white;
     background-color: #5c6bc0;
+    font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic";
 }
