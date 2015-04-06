@@ -10,6 +10,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     </head>
     <body>
+
+        <div id="nav-bar"></div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#nav-bar').load('navbar.html');
+            });
+        </script>
+
         <div class="slideshow">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -39,9 +47,6 @@
                     中学校や普通の高校にはない、もっとも高専らしい部活の１つではないでしょうか？<br>
                     ほぼ毎日、図書館下の情報処理センター第二端末室で活動しています。<br>
                 </p>
-                <h4>
-                    <a href="http://densanki.wp.xdomain.jp/">電算機部作成のホームページへ（外部）</a>
-                </h4>
             </div>
             <div class="contents-member">
                 <h2 class="contents-title">部員数</h2>
@@ -76,8 +81,11 @@
             </div>
         </div>
 
-        <div class="footer">
-            <div class="footer-text">Copyright © 2015 NNCT Computer Club</div>
-        </div>
+        <div id="footer"></div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#footer').load('footer.html');
+            });
+        </script>
     </body>
 </html>
