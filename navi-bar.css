@@ -16,11 +16,14 @@
     float: left;
     position: absolute;
     top: 0;
+    left: 0;
 }
+
 .title{
+    height: 70px;
     font-weight: 100;
-    padding : 0 40px;
-    line-height: 70px;
+    margin: 0;
+    padding : 15px 30px;
 }
 
 .navi-bar-right{
@@ -33,7 +36,7 @@
     list-style: none;
 }
 .navi-bar-right li{
-    width: 80px;
+    width: 120px;
     height: 70px;
     float: left;
     padding: 0 20px;
@@ -43,7 +46,5 @@
     font-size: 20px;
     color: white;
     background-color: #5c6bc0;
-}
-.jp-font {
-    font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic",sans-serif;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic",sans-serif;
 }
