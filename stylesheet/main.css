@@ -1,0 +1,36 @@
+li{
+  list-style:none;
+}
+hr{
+    border: 1px solid #ddd;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*main*/
+.main{
+    width: 800px;
+    margin: auto;
+}
+.main a{
+    color: #ff4081
+}
+
+.contents-title{
+    color: #3f51b5;
+}
+
+/*footer*/
+.footer{
+    height: 40px;
+    background-color: #c5cae9;
+}
+.footer-text{
+    padding: 10px 0px;
+    text-align: center;
+    color: gray;
+}
+
