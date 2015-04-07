@@ -3,17 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <title>部員紹介</title>
-<<<<<<< HEAD
-        <link rel="stylesheet" type="text/css" href="member.css">
-        <link rel="stylesheet" type="text/css" href="member_card.css">
-=======
-        <link rel="stylesheet" type="text/css" href="/stylesheet/member.css">
-        <link rel="stylesheet" type="text/css" href="/stylesheet/member_card.css">
->>>>>>> 22157435d93eb0f68da5ca5a42977d8a4a5f675b
+        <link rel="stylesheet" type="text/css" href="stylesheet/member.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet/member_card.css">
+<!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
+<!--        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<!--        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
     </head>
     <body>
+        <div id="nav-bar"></div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#nav-bar').load('navbar.html');
+            });
+        </script>
+
         <div class="main">
-            <div class="title">
+            <div class="member-title">
                 <h2>部員紹介</h2>
                 <p>電算機部所属のメンバーです。部員はいつでも募集中です！！</p>
             </div>
@@ -152,5 +158,11 @@
                 <!-- end nkj card -->
             </div>
         </div>
+        <div id="footer"></div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#footer').load('footer.html');
+            });
+        </script>
     </body>
 </html>
