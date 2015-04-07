@@ -13,7 +13,6 @@
 }
 
 .navi-bar-left{
-    float: left;
     position: absolute;
     top: 0;
     left: 0;
@@ -27,7 +26,6 @@
 }
 
 .navi-bar-right{
-    float: right;
     position: absolute;
     top: 0;
     right: 0;
@@ -37,10 +35,8 @@
 }
 .navi-bar-right li{
     width: 120px;
-    height: 70px;
-    float: left;
-    padding: 0 20px;
-    margin-right: 2px;
+    float: right;
+    margin-left: 2px;
     text-align: center;
     line-height: 70px;
     font-size: 18px;
