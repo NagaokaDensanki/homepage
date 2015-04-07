@@ -1,24 +1,28 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: "ヒラギノ角ゴ ProN","Hiragino Kaku Gothic ProN","Meiryo UI", sans-serif;
+}
+
+p{
+    font-size: 1.1em;
 }
 
 li{
   list-style:none;
 }
+
 hr{
     border: 1px solid #ddd;
-}
-
-body{
-    padding: 0px;
-    margin: 0px;
 }
 
 /*main*/
 .main{
     width: 900px;
     margin: auto;
+    padding: 20px;
 }
+
 .main a{
     color: #ff4081
 }
@@ -39,3 +43,32 @@ body{
     color: gray;
 }
 
+/*member.html*/
+.member-title{
+    padding: 10px;
+    background: #5c6bc0;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.member-title h2{
+    margin: 5px 0;
+}
+
+.member-title p{
+    margin: 2px 0;
+}
+
+.member-post{
+    margin: 20px 0 0 0;
+    padding: 10px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.cards{
+    overflow: hidden;
+    padding: 0 10px;
+}
