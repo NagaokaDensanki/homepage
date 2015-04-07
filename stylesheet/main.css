@@ -1,3 +1,8 @@
+*{
+    font-family: "ヒラギノ角ゴ ProN","Hiragino Kaku Gothic ProN",
+ "游ゴシック","Yu Gothic", sans-serif;
+}
+
 li{
   list-style:none;
 }
@@ -26,6 +31,7 @@ body{
 /*footer*/
 .footer{
     height: 40px;
+    margin: 30px 0 0 0;
     background-color: #c5cae9;
 }
 .footer-text{
