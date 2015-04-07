@@ -5,15 +5,12 @@
         <title>部員紹介</title>
         <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
         <link rel="stylesheet" type="text/css" href="stylesheet/member_card.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     </head>
     <body>
         <div id="nav-bar"></div>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('#nav-bar').load('navbar.html');
-            });
-        </script>
 
         <div class="main">
             <div class="member-title">
@@ -23,141 +20,30 @@
 
             <h3 class="member-post">部長・副部長</h3>
             <div class="cards">
-                <!-- nkj card -->
-                <div class="plofile-card">
-                    <div class="profile-header">
-                        <img class="profile-header-image" src="img/member/sample_header.jpg"/>
-                        <span class="name">なかじ</span>
-                        <img class="profile-header-icon" src="img/member/sample_icon.jpg" />
-                    </div>
-                    <div class="profile-contents">
-                        <div class="profile-contents-comment">
-                            副部長（自称）の人。<br>
-                            C++で競プロをやっていて、RailsでのWebアプリ製作を最近始めた。
-                        </div>
-                        <div class="profile-contents-accounts">
-                            <a class="account" href="https://twitter.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/twitter-512.png" />
-                                <span class="account-name">Twitter</span>
-                            </a>
-                            <a class="account" href="https://github.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/github-512.png" />
-                                <span class="account-name" >GitHub</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end nkj card -->
-                <!-- nkj card -->
-                <div class="plofile-card">
-                    <div class="profile-header">
-                        <img class="profile-header-image" src="img/member/sample_header.jpg"/>
-                        <span class="name">なかじ</span>
-                        <img class="profile-header-icon" src="img/member/sample_icon.jpg" />
-                    </div>
-                    <div class="profile-contents">
-                        <div class="profile-contents-comment">
-                            副部長（自称）の人。<br>
-                            C++で競プロをやっていて、RailsでのWebアプリ製作を最近始めた。
-                        </div>
-                        <div class="profile-contents-accounts">
-                            <a class="account" href="https://twitter.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/twitter-512.png" />
-                                <span class="account-name">Twitter</span>
-                            </a>
-                            <a class="account" href="https://github.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/github-512.png" />
-                                <span class="account-name" >GitHub</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end nkj card -->
+                <div id="jun"></div>
+                <div id="nkj"></div>
             </div>
-
 
             <h3 class="member-post">Level.5</h3>
             <div class="cards">
-                <!-- nkj card -->
-                <div class="plofile-card">
-                    <div class="profile-header">
-                        <img class="profile-header-image" src="img/member/sample_header.jpg"/>
-                        <span class="name">なかじ</span>
-                        <img class="profile-header-icon" src="img/member/sample_icon.jpg" />
-                    </div>
-                    <div class="profile-contents">
-                        <div class="profile-contents-comment">
-                            副部長（自称）の人。<br>
-                            C++で競プロをやっていて、RailsでのWebアプリ製作を最近始めた。
-                        </div>
-                        <div class="profile-contents-accounts">
-                            <a class="account" href="https://twitter.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/twitter-512.png" />
-                                <span class="account-name">Twitter</span>
-                            </a>
-                            <a class="account" href="https://github.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/github-512.png" />
-                                <span class="account-name" >GitHub</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end nkj card -->
-                <!-- nkj card -->
-                <div class="plofile-card">
-                    <div class="profile-header">
-                        <img class="profile-header-image" src="img/member/sample_header.jpg"/>
-                        <span class="name">なかじ</span>
-                        <img class="profile-header-icon" src="img/member/sample_icon.jpg" />
-                    </div>
-                    <div class="profile-contents">
-                        <div class="profile-contents-comment">
-                            副部長（自称）の人。<br>
-                            C++で競プロをやっていて、RailsでのWebアプリ製作を最近始めた。
-                        </div>
-                        <div class="profile-contents-accounts">
-                            <a class="account" href="https://twitter.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/twitter-512.png" />
-                                <span class="account-name">Twitter</span>
-                            </a>
-                            <a class="account" href="https://github.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/github-512.png" />
-                                <span class="account-name" >GitHub</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end nkj card -->
-                <!-- nkj card -->
-                <div class="plofile-card">
-                    <div class="profile-header">
-                        <img class="profile-header-image" src="img/member/sample_header.jpg"/>
-                        <span class="name">なかじ</span>
-                        <img class="profile-header-icon" src="img/member/sample_icon.jpg" />
-                    </div>
-                    <div class="profile-contents">
-                        <div class="profile-contents-comment">
-                            副部長（自称）の人。<br>
-                            C++で競プロをやっていて、RailsでのWebアプリ製作を最近始めた。
-                        </div>
-                        <div class="profile-contents-accounts">
-                            <a class="account" href="https://twitter.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/twitter-512.png" />
-                                <span class="account-name">Twitter</span>
-                            </a>
-                            <a class="account" href="https://github.com/nkjmau/">
-                                <img class="account-icon" src="img/icon/github-512.png" />
-                                <span class="account-name" >GitHub</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end nkj card -->
+                <div id="hrs"></div>
+                <div id="knd"></div>
+                <div id="mmm"></div>
+                <div id="bbb"></div>
             </div>
         </div>
+
         <div id="footer"></div>
+
         <script type="text/javascript">
             $(document).ready(function() {
+                $('#nav-bar').load('navbar.html');
+                $('#jun').load('member_card.html');
+                $('#nkj').load('member_card.html');
+                $('#hrs').load('member_card.html');
+                $('#knd').load('member_card.html');
+                $('#mmm').load('member_card.html');
+                $('#bbb').load('member_card.html');
                 $('#footer').load('footer.html');
             });
         </script>
