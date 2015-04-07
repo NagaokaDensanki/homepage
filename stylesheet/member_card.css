@@ -19,13 +19,15 @@
 
 .profile-header-icon {
     position: absolute;
-    top: 30px;
-    left: 20px;
+    top: 15px;
+    left: 15px;
     /* iconの画像を丸くトリミング */
-    width: 80px;
-    border-radius: 80px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 80px;
+    width: 90px;
+    border-radius: 90px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border: 2px solid #ddd;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.8);
 }
 
 .name {
@@ -37,8 +39,8 @@
     padding-left: 120px;
     color: white;
     font-size: 30px;
-    background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.5));
-    background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,0.6)));
+    background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.7));
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,0.7)));
 }
 
 /* profile-header外の要素 */
