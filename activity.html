@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>活動実績</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet/activitycard.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="nav-bar"></div>
+
+        <div class="main">
+            <div class="contents-title">
+                <h2>活動実績</h2>
+                <p>電算機部の大会・コンテスト等への参加実績を紹介します</p>
+            </div>
+            <div class="activity-card">
+                <h3>プログラミングコンテスト</h3>
+                <p>先日、一関文化センターにて行われました...</p>
+                <a href="http://www.procon.gr.jp/">プロコン公式ホームページ</a>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#nav-bar').load('navbar.html');
+                $('#footer').load('footer.html');
+            });
+        </script>
+    </body>
+</html>

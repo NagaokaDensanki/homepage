@@ -5,6 +5,7 @@
 }
 
 p{
+    margin: 10px;
     font-size: 1.1em;
 }
 
@@ -20,15 +21,48 @@ hr{
 .main{
     width: 900px;
     margin: auto;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .main a{
     color: #ff4081
 }
 
+.index-link{
+    font-size: 1.1em;
+    margin: 0 10px;
+    color: #ff4081
+}
+
 .contents-title{
-    color: #3f51b5;
+    padding: 10px;
+    background: #5c6bc0;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.contents-title h2{
+    margin: 5px;
+}
+
+.contents-title p{
+    margin: 5px;
+}
+
+/*member.html*/
+
+.member-post{
+    margin: 20px 0 0 0;
+    padding: 10px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.member-cards{
+    overflow: hidden;
+    padding: 0 30px;
 }
 
 /*footer*/
@@ -43,32 +77,7 @@ hr{
     color: gray;
 }
 
-/*member.html*/
-.member-title{
-    padding: 10px;
-    background: #5c6bc0;
-    color: #fff;
-    border-radius: 3px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-}
 
-.member-title h2{
-    margin: 5px 0;
-}
 
-.member-title p{
-    margin: 2px 0;
-}
 
-.member-post{
-    margin: 20px 0 0 0;
-    padding: 10px;
-    background: #fff;
-    border-radius: 3px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-}
 
-.cards{
-    overflow: hidden;
-    padding: 0 25px;
-}
