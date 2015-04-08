@@ -19,7 +19,7 @@ hr{
 
 /*main*/
 .slideshow{
-    width: 100%;
+    min-width: 1000px;
 }
 
 .main{
