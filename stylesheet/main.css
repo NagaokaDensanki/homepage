@@ -70,6 +70,16 @@ hr{
     padding: 0 30px;
 }
 
+.left{
+    float: left;
+    width: 420px;
+}
+
+.right{
+    float: left;
+    width: 420px;
+}
+
 /*footer*/
 .footer{
     height: 40px;
