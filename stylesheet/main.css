@@ -70,6 +70,16 @@ hr{
     padding: 0 30px;
 }
 
+.card-left{
+    float: left;
+    width: 420px;
+}
+
+.card-right{
+    float: left;
+    width: 420px;
+}
+
 /*footer*/
 .footer{
     height: 40px;
