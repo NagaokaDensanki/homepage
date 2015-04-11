@@ -4,7 +4,7 @@
 }
 
 .nav-bar {
-    height: 65px;
+    height: 60px;
     min-width: 1000px;
     background-color: #3f51b5;
     color: white;
@@ -13,24 +13,44 @@
 
 .nav-bar-left{
     float: left;
-    padding: 10px 60px;
+    padding: 0 60px;
     font-size:30px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .nav-bar-right{
     float: right;
 }
 
+.nav-bar-right ul{
+    margin-right:0;
+    padding-right:0;
+    list-style-type:none;
+    width:530px;
+}
+
 .nav-bar-right li{
-    float: left;
-    width: 100px;
-    height: 65px;
-    margin-right: 2px;
-    padding: 20px 0;
-    color: white;
-    background-color: #5c6bc0;
-    list-style:none;
-    text-align: center;
+    float:left;
+    width:100px;
+}
+
+.nav-bar-right a{
+    display:block;
+    border-right:2px solid #3f51b5;
+    text-align:center;
+    text-decoration:none;
+    background-color:#5c6bc0 ;
+    color:#fff;
+    width:100px;
+    height: 60px;
+    line-height: 60px;
+    font-size:16px;
     font-family: "ヒラギノ角ゴ ProN","Hiragino Kaku Gothic ProN","Meiryo UI", sans-serif;
-    font-size: 15px;
+}
+
+.nav-bar-right a:hover{
+    background-color:#7986cb;
+    color: #fff;
+    text-decoration:none;
 }
