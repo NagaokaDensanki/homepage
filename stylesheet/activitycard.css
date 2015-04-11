@@ -6,14 +6,20 @@
     overflow: hidden;
 }
 
-.activity-card h3{
-    height: 50px;
-    margin: 10px;
-    color: #3f51b5;
+.activity-card-title{
+    font-size: 30px;
     font-weight: bold;
+    color: #5c6bc0;
+    padding: 10px;
+}
+
+.activity-card p{
+    padding: 0 10px;
+    font-size: 1.1em;
 }
 
 .activity-card a{
-    font-size: 1.1em;
+    color: #ff4081;
     margin: 10px;
+    font-size: 1.5rem;
 }
