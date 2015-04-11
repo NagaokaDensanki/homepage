@@ -1,7 +1,7 @@
 .plofile-card {
     width: 400px;
     position: relative;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
     background: #fff;
     border-radius: 5px;
     float: left;
@@ -28,7 +28,7 @@
     -webkit-border-radius: 90px;
     -moz-border-radius: 90px;
     border: 2px solid #ddd;
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.8);
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.6);
 }
 
 .name {
@@ -40,8 +40,8 @@
     padding-left: 120px;
     color: white;
     font-size: 30px;
-    background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.7));
-    background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,0.7)));
+    background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.9));
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,0.9)));
 }
 
 /* profile-header外の要素 */
