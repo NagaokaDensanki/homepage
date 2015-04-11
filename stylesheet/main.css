@@ -55,6 +55,10 @@ html{
     font-size: 2.0rem;
 }
 
+.space{
+    margin: 50px;
+}
+
 /*member.html*/
 .member-card{
     overflow: hidden;
