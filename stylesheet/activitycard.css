@@ -10,17 +10,29 @@
 .activity-card-title{
     font-size: 30px;
     font-weight: bold;
-    color: #5c6bc0;
+    color   : #5c6bc0;
     padding: 10px;
 }
 
-.activity-card p{
+.activity-card-contents{
     padding: 0 10px;
     font-size: 1.1em;
 }
 
 .activity-card a{
     color: #ff4081;
-    margin: 10px;
-    font-size: 1.5rem;
+    font-size: 1.1em;
+}
+
+.activity-card-headline{
+    color: #5c6bc0;
+    font-size: 20px;
+}
+
+.contents-of-headline{
+    padding: 0 0 0 10px;
+}
+
+.activity-card-contents ul{
+    padding: 0 0 0 28px;
 }
