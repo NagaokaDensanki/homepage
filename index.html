@@ -1,28 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="jp">
     <head>
-        <title>長岡高専 電算機部</title>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>長岡高専 電算機部</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--stylesheet-->
         <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
     </head>
     <body>
-        <div id="nav-bar"></div>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('#nav-bar').load('navbar.html');
-            });
-        </script>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
 
-        <div class="slideshow">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!--ブランド名 ロゴ名の表示-->
+                <a class="navbar-brand" href="#">NNCT Computer Club</a>
+
+                <!--トグルボタンの設置-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="nav-content" class="collapse navbar-collapse">
+
+                <!--リンクのリスト メニューリスト-->
+                <ul class="nav navbar-nav">
+                    <li><a href="">Link1</a></li>
+                    <li><a href="">Link2</a></li>
+                    <li><a href="">Link3</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <div id="slideshow" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideshow" data-slide-to="1"></li>
+                    <li data-target="#slideshow" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="item active">
@@ -36,58 +62,56 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
 
-        <div class="main">
-            <div class="contents-content">
-                <div class="contents-title">ようこそ ! 長岡高専 電算機部へ</div>
-                <p>電算機部では、PCのゲームやアプリ、スマホのアプリなどを作っています。みんなマイペースに開発をしている部活です。<br>
-                    中学校や普通の高校にはない、もっとも高専らしい部活の１つではないでしょうか？<br>
-                    ほぼ毎日、図書館下の情報処理センター第二端末室で活動しています。<br></p>
+        <div class="container">
+            <div class="row introduce">
+                <div class="col-xs-12">
+                    <h3>ようこそ ! 長岡高専 電算機部へ</h3>
+                    <p>電算機部では、PCのゲームやアプリ、スマホのアプリなどを作っています。みんなマイペースに開発をしている部活です。<br>
+                        中学校や普通の高校にはない、もっとも高専らしい部活の１つではないでしょうか？<br>
+                        ほぼ毎日、図書館下の情報処理センター第二端末室で活動しています。<br></p>
+                </div>
             </div>
-
-            <div class="contents-content">
-                <div class="contents-title">部員数</div>
-                <p>
-                    専攻科生 1名<br>5年生 4名<br>4年生 5名<br>3年生 11名<br>2年生 6名<br>1年生 現在勧誘中<br><br>合計 27名<br>
-                    (平成27年4月13日 現在)
-                </p>
+            <div class="row member">
+                <div class="col-md-6">
+                    <h3>部員数</h3>
+                    <p>専攻科生 1名<br>5年生 4名<br>4年生 5名<br>3年生 11名<br>2年生 6名<br>1年生 現在勧誘中<br><br>合計 27名<br>
+                        (平成27年4月13日 現在)</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>クラブ顧問</h3>
+                    <p>??</p>
+                </div>
             </div>
-
-            <div class="contents-content">
-                <div class="contents-title">クラブ顧問</div>
-                <p>
-                    ??
-                </p>
-            </div>
-
-            <div class="contents-content">
-                <div class="contents-title">最近の活動状況</div>
-
-                <div class="contents-small-content">
-                    <div class="contents-small-title">プログラミングコンテストへの参加</div>
+            <div class="row contest">
+                <div class="col-xs-12">
+                    <h3>最近の活動状況</h3>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h3>プログラミングコンテストへの参加</h3>
                     <p>電算機部は競技部門の長岡高専代表として毎年参加しています2014年度は競技部門準決勝敗退でした。<br>
                         通称「プロコン」と呼ばれるこの大会では全国の情報系高専生が集まるもので技術力の高い他校の生徒と交流を持つことができます。<br>
                         今後は電算機部として出場実績のあまりない競技部門・自由部門への出場も視野に入れ、日々活動しています。</p>
                 </div>
-
-                <div class="contents-small-content">
-                    <div class="contents-small-title">パソコン甲子園への参加</div>
+                <div class="col-md-6 col-lg-4">
+                    <h3>パソコン甲子園への参加</h3>
                     <p>こちらも毎年参加しています。昨年度はプログラミング部門に参加しました。来年度はモバイル部門への参加も予定しています。</p>
                 </div>
-
-                <div class="contents-small-content">
-                    <div class="contents-small-title">関東信越地区高専文化発表会への参加</div>
+                <div class="col-md-6 col-lg-4">
+                    <h3>関東信越地区高専文化発表会への参加</h3>
                     <p>毎年参加しています。昨年度は東京高専で開催されました。電算機部は弾幕シューティングゲームを展示しました。(4年生制作(当時))</p>
                 </div>
             </div>
         </div>
 
-        <div id="footer"></div>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('#footer').load('footer.html');
-            });
-        </script>
+        <footer class="container-fluid">
+            <small>Copyright © 2015 NNCT Computer Club.</small>
+        </footer>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
