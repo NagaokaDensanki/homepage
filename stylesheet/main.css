@@ -1,5 +1,5 @@
 body{
-    font-family: Verdana, Roboto, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+    font-family: Verdana, Roboto, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo UI, "メイリオ", Meiryo, sans-serif;
 }
 
 h3{
@@ -25,7 +25,7 @@ footer{
 #navbar-custom.navbar-default .navbar-brand {
     color: rgba(238, 238, 238, 1);
     font-size: 25px;
-    font-family: Roboto, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+    font-family: Roboto, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo UI, "メイリオ", Meiryo, sans-serif;
 }
 #navbar-custom.navbar-default {
     font-size: 15px;
