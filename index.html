@@ -20,27 +20,26 @@
 <![endif]-->
     </head>
     <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-header">
-
-                <!--ブランド名 ロゴ名の表示-->
-                <a class="navbar-brand" href="#">NNCT Computer Club</a>
-
-                <!--トグルボタンの設置-->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div id="nav-content" class="collapse navbar-collapse">
-
-                <!--リンクのリスト メニューリスト-->
-                <ul class="nav navbar-nav">
-                    <li><a href="">Link1</a></li>
-                    <li><a href="">Link2</a></li>
-                    <li><a href="">Link3</a></li>
-                </ul>
+        <nav id="navbar-custom" class="navbar navbar-default " role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand" href="#">NNCT Computer Club</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-menubuilder">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">ホーム</a>
+                        </li>
+                        <li><a href="#">活動記録</a>
+                        </li>
+                        <li><a href="#">部員紹介</a>
+                        </li>
+                        <li><a href="#">作ったもの</a>
+                        </li>
+                        <li><a href="#">リンク集</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
