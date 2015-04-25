@@ -1,50 +1,263 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="jp">
     <head>
-        <meta charset="UTF-8">
-        <title>部員紹介</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="長岡,高専,電算機,computer,club,コンピュータ,部">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>長岡高専 電算機部</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--stylesheet-->
         <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
         <link rel="stylesheet" type="text/css" href="stylesheet/member_card.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
     </head>
     <body>
-        <div id="nav-bar"></div>
-
-        <div class="main">
-            <div class="contents-title">
-                <div class="contents-title-title">部員紹介</div>
-                <p>電算機部所属のメンバーです(一部)。部員はいつでも募集中です！！</p>
-            </div>
-            <div class="member-card">
-                <div class="card-left">
-                    <div id="jun"></div>
-                    <div id="sato"></div>
-                    <div id="tajmahal"></div>
+        <nav id="navbar-custom" class="navbar navbar-default " role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand" href="#">NNCT Computer Club</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
                 </div>
-                <div class="card-right">
-                    <div id="nkj"></div>
-                    <div id="toutyaku"></div>
-                    <div id="udon"></div>
+                <div class="collapse navbar-collapse navbar-menubuilder">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">ホーム</a>
+                        </li>
+                        <li><a href="activity.html">活動記録</a>
+                        </li>
+                        <li><a href="member.html">部員紹介</a>
+                        </li>
+                        <li><a href="#">作ったもの</a>
+                        </li>
+                        <li><a href="#">リンク集</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row member-introduce">
+                <div class="col-xs-12">
+                    <div class="activity-title">
+                        <h2>部員紹介</h2>
+                        <p>電算機部所属のメンバーです(一部)。部員はいつでも募集中です！！</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row member">
+                <div class="col-sm-6 col-lg-4 card">
+                    <div class="plofile-card">
+                        <div class="profile-header">
+                            <!-- ヘッダー画像をココに -->
+                            <img class="profile-header-background" src="img/member/jun_header.jpg"/>
+                            <!-- ニックネームをココに -->
+                            <span class="profile-header-name">Jun</span>
+                            <!-- プロフィール画像をココに -->
+                            <img class="profile-header-icon" src="img/member/jun_icon.jpg" />
+                        </div>
+                        <div class="profile-contents">
+                            <!-- コメントをココに -->
+                            <div class="profile-contents-comment">
+                                部長の人<br>
+                                Androidアプリ開発からはじめて、現在はRailsなどWeb開発を勉強中
+                            </div>
+                            <div class="profile-contents-accounts">
+                                <!-- Twitter,GitHub等のアカウントをココに -->
+                                <a class="account" href="https://twitter.com/_jnya/">
+                                    <img class="account-icon" src="img/icon/twitter.png"/>
+                                    <span class="account-name">Twitter</span>
+                                </a>
+                                <a class="account" href="https://github.com/jun1007na">
+                                    <img class="account-icon" src="img/icon/github.png"/>
+                                    <span class="account-name" >GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 card">
+                    <div class="plofile-card">
+                        <div class="profile-header">
+                            <!-- ヘッダー画像をココに　(1500x500) -->
+                            <img class="profile-header-background" src="img/member/nkj_header.jpg"/>
+                            <!-- ニックネームをココに -->
+                            <span class="profile-header-name">なかじ</span>
+                            <!-- プロフィール画像をココに　(500x500) -->
+                            <img class="profile-header-icon" src="img/member/nkj_icon.jpg" />
+                        </div>
+                        <div class="profile-contents">
+                            <!-- コメントをココに -->
+                            <div class="profile-contents-comment">
+                                副ぶちょー（自称）の人。<br>
+                                C++で競プロをやっていて、RailsでのWebアプリ製作を最近始めた。
+                            </div>
+                            <div class="profile-contents-accounts">
+                                <!-- Twitter,GitHub等のアカウントをココに -->
+                                <a class="account" href="https://twitter.com/nkjmau/">
+                                    <img class="account-icon" src="img/icon/twitter.png"/>
+                                    <span class="account-name">Twitter</span>
+                                </a>
+                                <a class="account" href="https://github.com/nkjmau/">
+                                    <img class="account-icon" src="img/icon/github.png"/>
+                                    <span class="account-name" >GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 card">
+                    <div class="plofile-card">
+                        <div class="profile-header">
+                            <!-- ヘッダー画像をココに　(1500x500) -->
+                            <img class="profile-header-background" src="img/member/toutyaku_header.jpg"/>
+                            <!-- ニックネームをココに -->
+                            <span class="profile-header-name">到着</span>
+                            <!-- プロフィール画像をココに　(500x500) -->
+                            <img class="profile-header-icon" src="img/member/toutyaku_icon.jpg" />
+                        </div>
+                        <div class="profile-contents">
+                            <!-- コメントをココに -->
+                            <div class="profile-contents-comment">
+                                最近までelseをｲﾚｲｽﾞって読んでました<br>
+                                主にJavaを使い、綺麗なコードを書く事を目標にのんびり頑張ってます
+                            </div>
+                            <div class="profile-contents-accounts">
+                                <!-- Twitter,GitHub等のアカウントをココに -->
+                                <a class="account">
+                                    <span class="account-name" >No Page</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 card">
+                    <div class="plofile-card">
+                        <div class="profile-header">
+                            <!-- ヘッダー画像をココに　(1500x500) -->
+                            <img class="profile-header-background" src="img/member/kr_header.png"/>
+                            <!-- ニックネームをココに -->
+                            <span class="profile-header-name">かーる</span>
+                            <!-- プロフィール画像をココに　(500x500) -->
+                            <img class="profile-header-icon" src="img/member/kr_icon.png" />
+                        </div>
+                        <div class="profile-contents">
+                            <!-- コメントをココに -->
+                            <div class="profile-contents-comment">
+                                ドット絵作りながらRPGツクール,東方,昔々のゲームあさり等々 幅広く探し,見て,遊び,学ぶC系言語初心者(？) ﾜｰｵｼｭﾋﾞﾊﾝｲﾋﾚｰ^^</div>
+                            <div class="profile-contents-accounts">
+                                <!-- Twitter,GitHub等のアカウントをココに -->
+                                <a class="account">
+                                    <span class="account-name" >No Page</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 card">
+                    <div class="plofile-card">
+                        <div class="profile-header">
+                            <!-- ヘッダー画像をココに　(1500x500) -->
+                            <img class="profile-header-background" src="img/member/sample_header.jpg"/>
+                            <!-- ニックネームをココに -->
+                            <span class="profile-header-name">うどん粉</span>
+                            <!-- プロフィール画像をココに　(500x500) -->
+                            <img class="profile-header-icon" src="img/member/sample_icon.jpg" />
+                        </div>
+                        <div class="profile-contents">
+                            <!-- コメントをココに -->
+                            <div class="profile-contents-comment">
+                                マインクラフトで整地のバイトを探してる小麦粉。<br>
+                                MOD作成、Java始めました＾ｐ＾
+                            </div>
+                            <div class="profile-contents-accounts">
+                                <!-- Twitter,GitHub等のアカウントをココに -->
+                                <a class="account">
+                                    <span class="account-name" >No Page</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 card">
+                    <div class="plofile-card">
+                        <div class="profile-header">
+                            <!-- ヘッダー画像をココに　(1500x500) -->
+                            <!-- 画像を貼るときはdivをimgに変更すること -->
+                            <img class="profile-header-background" src="img/member/sample_header.jpg"/>
+                            <!-- ニックネームをココに -->
+                            <span class="profile-header-name">シュガー</span>
+                            <!-- プロフィール画像をココに　(500x500) -->
+                            <img class="profile-header-icon" src="img/member/sample_icon.jpg" />
+                        </div>
+                        <div class="profile-contents">
+                            <!-- コメントをココに -->
+                            <div class="profile-contents-comment">
+                                マイクラ好きな人「あ”あ”ークリーパーに爆破ざれだい”ー」<br>
+                                最近はUnityでのゲーム開発や、自己学習AIに興味を持っている。
+                            </div>
+                            <div class="profile-contents-accounts">
+                                <!-- Twitter,GitHub等のアカウントをココに -->
+                                <a class="account">
+                                    <span class="account-name" >No Page</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 card">
+                    <div class="plofile-card">
+                        <div class="profile-header">
+                            <!-- ヘッダー画像をココに　(1500x500) -->
+                            <img class="profile-header-background" src="img/member/sample_header.jpg"/>
+                            <!-- ニックネームをココに -->
+                            <span class="profile-header-name">Tじま</span>
+                            <!-- プロフィール画像をココに　(500x500) -->
+                            <img class="profile-header-icon" src="img/member/tajmahal_icon.jpg" />
+                        </div>
+                        <div class="profile-contents">
+                            <!-- コメントをココに -->
+                            <div class="profile-contents-comment">
+                                暇そうで暇じゃない暇人<br>
+                                Unity学習中、趣味でお絵かき中
+                            </div>
+                            <div class="profile-contents-accounts">
+                                <!-- Twitter,GitHub等のアカウントをココに -->
+                                <a class="account">
+                                    <span class="account-name" >No Page</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div id="footer"></div>
+        <footer class="container-fluid">
+            <small>Copyright © 2015 NNCT Computer Club.</small>
+        </footer>
 
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('#nav-bar').load('navbar.html');
-                $('#jun').load('card/jun_card.html');
-                $('#nkj').load('card/nkj_card.html');
-                $('#toutyaku').load('card/toutyaku_card.html');
-                $('#udon').load('card/udon_card.html');
-                $('#sato').load('card/sato_card.html');
-                $('#tajmahal').load('card/tajmahal_card.html');
-                $('#footer').load('footer.html');
-            });
-        </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <!--Include jquery.tile.js-->
+        <!--
+<script src="js/jquery.tile.js"></script>
+<script>
+$(function(){
+$(".plofile-card").tile();
+});
+</script>
+-->
+
     </body>
 </html>
