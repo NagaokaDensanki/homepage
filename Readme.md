@@ -1,2 +1,3 @@
-<h3>長岡高専 電算機部HP(製作中)</h3>
-<p>現在の制作途中のページです。Bootstrap3を適用中</p>
+<h3>長岡高専 電算機部HP(開発経過)</h3>
+<p>現在のページです。</p>
+<a href="http://nagaokadensanki.github.io/HomePage/index.html/">http://nagaokadensanki.github.io/HomePage</a>
