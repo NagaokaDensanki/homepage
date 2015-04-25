@@ -19,6 +19,10 @@ p{
     font-size: 1.5rem;
 }
 
+a{
+    color: #ff4081;
+}
+
 .activity-title{
     background: #3f51b5;
     color: #fff;
