@@ -28,7 +28,7 @@
                 </div>
                 <div class="collapse navbar-collapse navbar-menubuilder">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">ホーム</a>
+                        <li><a href="index.html">ホーム</a>
                         </li>
                         <li><a href="activity.html">活動記録</a>
                         </li>
@@ -45,8 +45,8 @@
 
         <div class="container">
             <div class="row contest">
-                <div class="col-xs-12">
-                    <h3>活動記録</h3>
+                <div class="col-xs-12 activity-title">
+                    <h2>活動記録</h2>
                     <p>電算機部の大会・コンテスト等への参加実績を紹介します</p>
                 </div>
                 <div class="col-md-6">
@@ -100,51 +100,32 @@
                 </div>
             </div>
             <div class="row nichijou">
-                <div class="col-xs-12">
-                    <h3></h3>
+                <div class="col-xs-12 activity-title">
+                    <h2>普段の活動</h2>
+                    <p>電算機部の普段の活動を紹介します</p>
                 </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
-            </div>
-        </div>
-
-        <div class="main">
-            <div class="contents-title">
-                <div class="contents-title-title">活動実績</div>
-                <p>電算機部の大会・コンテスト等への参加実績を紹介します</p>
-            </div>
-            <span class="space"></span>
-            <div class="contents-title">
-                <div class="contents-title-title">普段の活動</div>
-                <p>電算機部の普段の活動を紹介します</p>
-            </div>
-            <div class="activity-card">
-                <div class="activity-card-title">個人での作品作り</div>
-                <div class="activity-card-contents">
+                <div class="col-md-4">
+                    <h3>個人での作品作り</h3>
                     <p>ゲーム・アプリ・好きなものを作ります。もし規模が大きいなら他の結束して作ることも…</p>
                 </div>
-            </div>
-            <div class="activity-card">
-                <div class="activity-card-title">チームでの作品作り</div>
-                <div class="activity-card-contents">
+                <div class="col-md-4">
+                    <h3>チームでの作品作り</h3>
                     <p>学校の文化祭・大会へ出す作品・部員同士がゆるく結束してHPやゲームなどを作っています。<br>ちなみに電算機部HPはJunとなかじーが制作しました。以前は最終更新が24年だったみたいですw</p>
                 </div>
-            </div>
-            <div class="activity-card">
-                <div class="activity-card-title">LT会・勉強会</div>
-                <div class="activity-card-contents">
-                    <p>今年から実施しようと計画中です。入部する1年生には毎年C言語から教えています。1年生の中にはすでに上級者も…(汗)</p>
+                <div class="col-md-4">
+                    <h3>LT会・勉強会</h3>
+                    <p>今年から実施しようと計画中です。入部する1年生には毎年C言語から教えています。</p>
                 </div>
             </div>
         </div>
 
-        <div id="footer"></div>
+        <footer class="container-fluid">
+            <small>Copyright © 2015 NNCT Computer Club.</small>
+        </footer>
 
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('#footer').load('footer.html');
-            });
-        </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
