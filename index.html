@@ -20,10 +20,14 @@
 <![endif]-->
     </head>
     <body>
-        <nav id="navbar-custom" class="navbar navbar-default " role="navigation">
+        <nav id="navbar-custom" class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header"><a class="navbar-brand" href="#">NNCT Computer Club</a>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse navbar-menubuilder">
@@ -32,8 +36,10 @@
                         </li>
                         <li><a href="activity.html">活動記録</a>
                         </li>
+<!--
                         <li><a href="member.html">部員紹介</a>
                         </li>
+-->
                         <li><a href="#">作ったもの</a>
                         </li>
                         <li><a href="#">リンク集</a>
@@ -44,7 +50,7 @@
         </nav>
 
         <header>
-            <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <div id="slideshow" class="carousel slide hidden-xs" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#slideshow" data-slide-to="0" class="active"></li>
                     <li data-target="#slideshow" data-slide-to="1"></li>
@@ -65,27 +71,35 @@
         </header>
 
         <div class="container">
-            <div class="row introduce">
-                <div class="col-xs-12">
+            <div class="row">
+                <div class="col-xs-12 ct">
                     <h3>ようこそ ! 長岡高専 電算機部へ</h3>
-                    <p>電算機部では、PCのゲームやアプリ、スマホのアプリなどを作っています。みんなマイペースに開発をしている部活です。<br>
+                    <div class="left">
+                        <img class="logo" src="img/icon/densanki.png" />
+                    </div>
+                    <div class="right">
+                        <p>電算機部では、PCのゲームやアプリ、スマホのアプリなどを作っています。みんなマイペースに開発をしている部活です。<br>
                         中学校や普通の高校にはない、もっとも高専らしい部活の１つではないでしょうか？<br>
-                        ほぼ毎日、図書館下の情報処理センター第二端末室で活動しています。<br></p>
+                        ほぼ毎日、図書館下の情報処理センター第二端末室で活動しています。</p>
+                    </div>
                 </div>
             </div>
-            <div class="row member">
-                <div class="col-md-6">
+            <hr>
+            <div class="row">
+                <div class="col-md-6 ct">
                     <h3>部員数</h3>
-                    <p>専攻科生 1名<br>5年生 4名<br>4年生 5名<br>3年生 11名<br>2年生 6名<br>1年生 現在勧誘中<br><br>合計 27名<br>
-                        (平成27年4月13日 現在)</p>
+                    <p>専攻科生 1名<br>5年生 4名<br>4年生 5名<br>3年生 11名<br>2年生 6名<br>1年生 16名<br><br>合計 43名<br>
+                        (平成27年 7月9日 現在)</p>
                 </div>
-                <div class="col-md-6">
-                    <h3>クラブ顧問</h3>
-                    <p>??</p>
+                <div class="col-md-6 ct">
+                    <h3>電算機部顧問</h3>
+                    <p>竹部啓輔（電子制御工学科）<br>
+佐藤秀一（一般教育科）</p>
                 </div>
             </div>
-            <div class="row contest">
-                <div class="col-xs-12">
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 ct">
                     <h3>最近の活動状況</h3>
                 </div>
                 <div class="col-md-6 col-lg-4">
