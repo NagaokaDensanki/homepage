@@ -3,3 +3,6 @@
 # Example .gitignore files: https://github.com/github/gitignore
 .script.js
 .DS_Store
+
+member.index
+card.zip
