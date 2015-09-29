@@ -3,14 +3,6 @@ body{
     background: #f9f9f9;
 }
 
-.left{
-    float: left;
-}
-
-.right{
-    float:left; 
-}
-
 .logo{
     margin: 10px;
     height: 100px;
@@ -18,6 +10,7 @@ body{
 
 h3{
     color: #3f51b5;
+    margin-bottom: 20px;
 }
 
 h4{
@@ -25,7 +18,7 @@ h4{
 }
 
 p{
-    
+
 }
 
 a{
@@ -34,6 +27,8 @@ a{
 
 hr{
     border-color: #dcdcdc;
+    margin: 0;
+    margin-top: 10px;
 }
 
 .activity-title{
