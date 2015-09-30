@@ -10,19 +10,35 @@ body{
 
 h3{
     color: #3f51b5;
-    margin-bottom: 20px;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #bbb;
 }
 
 h4{
-    border-bottom: 2px dotted #aaa;
+
 }
 
-p{
-
+.h4bold{
+    font-weight: bold;
 }
 
 a{
+    font-size: 1.1em;
     color: #ff4081;
+}
+
+.accent-bottom-a{
+    border-bottom: 3px solid #FF80AB;
+}
+.accent-bottom-b{
+    border-bottom: 3px solid #FF4081;
+}
+.accent-bottom-c{
+    border-bottom: 3px solid #FF80AB;
+}
+.accent-bottom-d{
+    border-bottom: 3px solid #FF4081;
 }
 
 hr{
@@ -50,11 +66,12 @@ hr{
 
 
 /*------------------------------------*/
-/**/
-/*ここからフッター*/
-/**/
+/*
+/*ここからフッター
+/*
 /*------------------------------------*/
 footer{
+    margin-top: 20px;
     padding: 10px 0px;
     background-color: #c5cae9;
     color: gray;
@@ -62,9 +79,9 @@ footer{
 }
 
 /*------------------------------------*/
-/**/
-/*ナビゲーションバーのカスタマイズ/
-/**/
+/*
+/*ナビゲーションバーのカスタマイズ
+/*
 /*------------------------------------*/
 #navbar-custom.navbar-default .navbar-brand {
     color: rgba(238, 238, 238, 1);
