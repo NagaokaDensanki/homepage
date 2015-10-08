@@ -28,6 +28,10 @@ a{
     color: #ff4081;
 }
 
+img{
+    height: 150px;
+}
+
 .accent-bottom-a{
     border-bottom: 3px solid #FF80AB;
 }
