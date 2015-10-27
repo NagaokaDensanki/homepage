@@ -26,8 +26,6 @@ a {
     color: #ff4081;
 }
 
-
-
 div.pic img {
     display: block;
 }
@@ -146,10 +144,11 @@ footer {
 #navbar-custom.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #3f51b5;
 }
+
 .gallary {
-    width:100%;
-    margin:0;
-    padding:0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .gallery {
