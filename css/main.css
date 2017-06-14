@@ -8,6 +8,10 @@ body {
 	height: 100px;
 }
 
+.bg {
+	background-color: #fff;
+}
+
 h3 {
 	color: #3f51b5;
 	padding-bottom: 6px;
@@ -71,7 +75,6 @@ hr {
 /* ここからフッター */
 
 footer {
-	margin-top: 20px;
 	padding: 10px 0px;
 	background-color: #c5cae9;
 	color: gray;
@@ -129,4 +132,23 @@ footer {
 #navbar-custom.navbar-default .navbar-toggle:hover .icon-bar,
 #navbar-custom.navbar-default .navbar-toggle:focus .icon-bar {
 	background-color: #3f51b5;
+}
+
+#footer {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.idxpad {
+	padding: 0px 40px 40px;
+}
+
+.custombg {
+	/* background color	*/
+	background: #DAE2F8;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #DAE2F8, #D6A4A4);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #DAE2F8, #D6A4A4);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
