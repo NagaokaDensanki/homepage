@@ -13,7 +13,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!--stylesheet-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" href="stylesheet/skippr.css">
+    <link rel="stylesheet" type="text/css" href="css/lightgallery.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -33,15 +33,25 @@
 					<p>各種作品・イベント参加時の写真を紹介します</p>
 				</div>
 			</div>
+            
 			<div class="col-xs-12">
 				<h3>関東信越地区 文化発表会</h3>
 				<h4>2015年度 茨城高専</h4>
+                <div id="lightgallery">
+                  <a href="img/gallery/1.jpg">
+                    <img src="img/gallery/thumb-1.jpg" />
+                  </a>
+                  <a href="img/gallery/2.jpg">
+                    <img src="img/gallery/thumb-2.jpg" />
+                  </a>
+                    <a href="img/gallery/4.jpg">
+                    <img src="img/gallery/thumb-4.jpg" />
+                  </a>
+                    <a href="img/gallery/13.jpg">
+                    <img src="img/gallery/thumb-13.jpg" />
+                  </a>
+                </div>
 
-			</div>
-
-			<div class="col-xs-12">
-				<h3>プログラミングコンテスト</h3>
-				<h4>2015年度 長野開催</h4>
 			</div>
 
 		</div>
@@ -54,7 +64,16 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript">
+ 
+    <!-- lightgallery -->
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script>
+	
+    <script>
+        lightGallery(document.getElementById('lightgallery'));
+    </script>
+    <script type="text/javascript">
 		$(function () {
 			$("#navbar").load("./navbar.html");
 			$("#footer").load("./footer.html");
